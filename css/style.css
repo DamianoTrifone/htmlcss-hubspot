@@ -8,3 +8,22 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.barra_ricerca{
+    position: relative;
+    background-color: #F4F9FD;
+    height: 90px;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px 0px;
+}
+
+#contact{
+    margin-left: 10px;
+}
+
+#lente{
+    position: absolute;
+    top: 5;
+    right: 50px;
+    width: 15px;
+}
