@@ -12,7 +12,7 @@
 .barra_ricerca{
     position: relative;
     background-color: #F4F9FD;
-    height: 90px;
+    height: 80px;
     font-family: 'Nunito', sans-serif;
     padding: 15px 0px;
 }
@@ -23,7 +23,37 @@
 
 #lente{
     position: absolute;
-    top: 5;
-    right: 50px;
-    width: 15px;
+    top: 4;
+    right: 500px;
+    width: 20px;
+}
+
+.bottoni_testa{
+    position: absolute;
+    top: 20px;
+    right: 170px;
+    padding: 10px 30px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bianco{
+    margin-right: 190px;
+    color: #FE775A;
+}
+
+.arancione{
+    color: white;
+    background-color: #FE775A;
+}
+
+#riga{
+    position: absolute;
+    width: 100%;
+    right: 10px;
+    top: 80px;
+    color: black;
+    background-color: black;
+    height: 1px;
 }
