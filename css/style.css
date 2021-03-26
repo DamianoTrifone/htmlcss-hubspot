@@ -23,7 +23,7 @@
 
 #lente{
     position: absolute;
-    top: 4;
+    top: 33px;
     right: 500px;
     width: 20px;
 }
@@ -60,4 +60,24 @@
 
 #logo{
     margin-top: 15px;
+}
+
+.btn_navigazione{
+    float: right;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    margin: 10px 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    height: 400px;
+    background-image: url(img/jumbotron.png);
+    background-position: center;
 }
