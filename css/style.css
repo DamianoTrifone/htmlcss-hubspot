@@ -100,7 +100,7 @@
     left: 160px;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
-    color: #506070;
+    color: #2a3541;
     width: 500px;
 }
 
@@ -140,4 +140,22 @@
     background-color: black;
     height: 3px;
     margin-top: 63px;
+}
+
+.centrale{
+    height: 900px;
+    background-color: #F4F9FD;
+}
+
+#cubo{
+    width: 250px;
+    margin-left: 585px;
+    margin-top: 50px;
+}
+
+.centrale > h2{
+    color: #2a3541;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 500px;
+    font-size: 30px;
 }
