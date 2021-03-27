@@ -76,8 +76,51 @@
 }
 
 .jumbotron{
+    position: relative;
     margin-top: 20px;
-    height: 400px;
+    height: 530px;
     background-image: url(img/jumbotron.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
+
+.jumbotron > h2{
+    position: absolute;
+    top: 25px;
+    left: 160px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    color: #506070;
+    width: 500px;
+}
+
+.jumbotron > p{
+    position: absolute;
+    top: 180px;
+    left: 160px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: #506070;
+    width: 500px;
+}
+
+.jumbotron > a{
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    padding: 15px 30px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:#FE775A;
+    font-family: 'Nunito', sans-serif;
+}
+
+#piccolo{
+    position: absolute;
+    top: 340px;
+    right: 3px;
+    font-size: 15px;
+}
+
