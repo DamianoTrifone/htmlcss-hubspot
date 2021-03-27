@@ -124,3 +124,20 @@
     font-size: 15px;
 }
 
+.divisore{
+    height: 70px;
+    background-color: #AFEBE4;
+}
+
+#divisore_alto{
+    color: black;
+    background-color: black;
+    height: 3px;
+}
+
+#divisore_basso{
+    color: black;
+    background-color: black;
+    height: 3px;
+    margin-top: 63px;
+}
