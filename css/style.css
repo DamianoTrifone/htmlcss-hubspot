@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
 
@@ -114,6 +114,8 @@
 }
 
 .centrale{
+    position: relative;
+    bottom:79px;
     height: 900px;
     background-color: #F4F9FD;
 }
@@ -167,4 +169,43 @@
     color: white;
     background-color:#FE775A;
     margin-top: 200px;
+}
+
+#rettangolo{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    width: 65%;
+    margin-left: 200px;
+}
+
+#book{
+    width: 120px;
+    float: left;
+}
+
+.hubs_section h2{
+    /* display: block; */
+    color: #2a3541;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hubs_section p{
+    color: #2a3541;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 100px;
+}
+.hubs_section a{
+    /* display: block; */
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:#FE775A;
+    width: 80px;
+}
+
+.hubs_section h4{
+    text-transform: uppercase;
+    color: #2a3541;
+    margin-top: 20px;
 }
