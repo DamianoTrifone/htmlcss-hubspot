@@ -208,4 +208,18 @@
     text-transform: uppercase;
     color: #2a3541;
     margin-top: 20px;
+    margin-left: 120px;
+    font-family: 'Nunito', sans-serif;
+    border-right: 4px #2a3541;
+}
+
+.bassi{
+    display: inline-block;
+}
+
+.tondo{
+    color: white;
+    background-color: #FE775A;
+    border: 2px solid #FE775A;
+    border-radius: 45%;
 }
