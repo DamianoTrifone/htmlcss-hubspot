@@ -7,6 +7,8 @@
 .container{
     width: 80%;
     margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+
 }
 
 .barra_ricerca{
@@ -79,53 +81,22 @@
     position: relative;
     margin-top: 20px;
     height: 530px;
-    background-image: url(img/jumbotron.png);
-    background-position: center;
+    background-image: url(../img/jumbotron.png);
+    background-position: right bottom;
     background-repeat: no-repeat;
-}
-
-.jumbotron > h2{
-    position: absolute;
-    top: 25px;
-    left: 160px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 50px;
-    color: #506070;
-    width: 500px;
-}
-
-.jumbotron > p{
-    position: absolute;
-    top: 180px;
-    left: 160px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 17px;
-    color: #2a3541;
-    width: 500px;
-}
-
-.jumbotron > a{
-    position: absolute;
-    top: 270px;
-    left: 160px;
-    padding: 15px 30px;
-    border: 1px solid #FE775A;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background-color:#FE775A;
-    font-family: 'Nunito', sans-serif;
+    background-color: #FFF4EF;
+    background-size: cover;
 }
 
 #piccolo{
-    position: absolute;
-    top: 340px;
-    right: 3px;
+    margin-top: 70px;
     font-size: 15px;
 }
 
 .divisore{
-    height: 70px;
+    position: relative;
+    bottom: 80px;
+    height: 80px;
     background-color: #AFEBE4;
 }
 
@@ -139,7 +110,7 @@
     color: black;
     background-color: black;
     height: 3px;
-    margin-top: 63px;
+    margin-top: 74px;
 }
 
 .centrale{
@@ -166,4 +137,34 @@
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
+}
+
+.rettangolo{
+    background-image: url(../img/followers.svg);
+    background-color: black;
+
+}
+
+.jumbotron h2{
+    font-size: 50px;
+    color: #506070;
+    width: 500px;
+}
+
+.jumbotron p{
+    font-size: 17px;
+    color: #2a3541;
+    width: 500px;
+}
+
+#a_jumbotron{
+    position: relative;
+    top: 35px;
+    padding: 15px 30px;
+    border: 1px solid #FE775A;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color:#FE775A;
+    margin-top: 200px;
 }
