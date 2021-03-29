@@ -113,39 +113,37 @@
     margin-top: 74px;
 }
 
-.centrale{
-    position: relative;
-    bottom:79px;
-    height: 900px;
+main {
     background-color: #F4F9FD;
+    text-align: center;
+}
+
+.centrale{
+    height: 1200px;
 }
 
 #cubo{
     width: 250px;
-    margin-left: 585px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .centrale > h2{
     color: #2a3541;
     font-family: 'Nunito', sans-serif;
-    margin-left: 500px;
     font-size: 30px;
 }
 
 .centrale > p{
-    width: 700px;
-    margin-left: 390px;
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
-
+/*
 .rettangolo{
     background-image: url(../img/followers.svg);
     background-color: black;
 
-}
+}*/
 
 .jumbotron h2{
     font-size: 50px;
@@ -174,17 +172,20 @@
 #rettangolo{
     margin-top: 30px;
     background-color: #FFFFFF;
-    width: 65%;
-    margin-left: 200px;
+    padding: 30px;
+}
+
+#rettangolo::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #book{
     width: 120px;
-    float: left;
 }
 
 .hubs_section h2{
-    /* display: block; */
     color: #2a3541;
     font-family: 'Nunito', sans-serif;
 }
@@ -195,7 +196,6 @@
     margin-left: 100px;
 }
 .hubs_section a{
-    /* display: block; */
     border: 1px solid #FE775A;
     border-radius: 5px;
     text-decoration: none;
@@ -213,6 +213,23 @@
     border-right: 4px #2a3541;
 }
 
+.sx{
+    float: left;
+    width: 30%;
+}
+
+.dx{
+    float: left;
+    width: 70%;
+}
+
+#learn_more{
+    display: block;
+    width: 50%;
+    padding: 10px 20px;
+    margin-left: 25%;
+}
+
 .bassi{
     display: inline-block;
 }
@@ -222,4 +239,47 @@
     background-color: #FE775A;
     border: 2px solid #FE775A;
     border-radius: 45%;
+    margin-right: 10px;
 }
+
+
+#bolle{
+    margin-top: 10px;
+    width: 60px;
+}
+
+.primo_riquadro{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+}
+
+.verticali p{
+    margin-right: 30%;
+  }
+
+.popolar_feature{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20%;
+}
+
+li{
+    list-style: none;
+ }
+
+ .secondo_riquadro{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    margin-left: 3%;
+ }
+
+ #borsa{
+     margin-top: 10px;
+     width: 30%;
+ }
