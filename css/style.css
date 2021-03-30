@@ -390,3 +390,24 @@ li{
 .basso_dx img{
     width: 40%;
 }
+
+.footer{
+    margin: 1px solid black;
+    display: inline;
+    background-color: grey;
+}
+
+.footer > div{
+    float: left;
+    padding: 20px 15px;
+}
+
+.footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer a{
+    display: block;
+}
