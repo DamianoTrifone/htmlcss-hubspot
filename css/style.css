@@ -352,12 +352,15 @@ li{
 
  .alto_sx{
      float: left;
+     width: 40%;
  }
 
-.alto_sx{
-    float: left;
-}
+ .alto_dx{
+     float: left;
+     width: 40%;
+ }
 
 .loghi{
-    width: 180px;
+    width: 100px;
+    padding: 2px 5px;
 }
