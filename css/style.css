@@ -325,8 +325,11 @@ li{
     font-family: 'Nunito', sans-serif;
  }
 
+ .griglia{
+     margin-top: 5%;
+ }
+
  .riga > div{
-        background-color: red;
         border-left: 1px solid white;
         width: 25%;
         height: 100px;
