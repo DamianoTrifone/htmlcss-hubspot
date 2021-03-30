@@ -12,7 +12,8 @@
 }
 
 .barra_ricerca{
-    position: relative;
+    /* position: fixed; */
+    position:relative;
     background-color: #F4F9FD;
     height: 80px;
     font-family: 'Nunito', sans-serif;
