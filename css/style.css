@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     font-family: 'Nunito', sans-serif;
 
@@ -119,7 +119,7 @@ main {
 }
 
 .centrale{
-    height: 1200px;
+    height:1180px;
 }
 
 #cubo{
@@ -245,7 +245,7 @@ main {
 
 .primo_riquadro{
     background-color: white;
-    width: 30%;
+    width: 31%;
     text-align: center;
     margin-top: 30px;
     float: left;
@@ -267,7 +267,7 @@ li{
 
  .secondo_riquadro{
     background-color: white;
-    width: 30%;
+    width: 31%;
     text-align: center;
     margin-top: 30px;
     float: left;
@@ -283,19 +283,48 @@ li{
     display: block;
     padding: 10px 20px;
     margin-left: 25%;
-    margin-top: 20px;
+    margin-top: 10%;
  }
 
  .terzo_riquadro{
     background-color: white;
-    width: 30%;
+    width: 31%;
     text-align: center;
     margin-top: 30px;
     float: left;
-    margin-left: 3%;
+    margin-left: 4%;
  }
+
+ .terzo_riquadro p{
+     width: 60%;
+    }
 
  #tavolo{
      margin-top: 10px;
-     width: 30%;
+     width: 25%;
+ }
+
+ .tabellare{
+     background-image: -webkit-gradient(right, #00A4BB 0%, #00BBA5 100%);
+     background-color: #00ABB6;
+     background-size: cover;
+     border: 1px solid black;
+     height: 200px;
+ }
+
+ .tabellare h2{
+     color: white;
+     text-align: center;
+     width: 80%;
+     margin-top: 1%;
+     margin-left: 10%;
+     font-family: 'Nunito', sans-serif;
+ }
+
+ .tabellare p{
+     color: white;
+     width: 80%;
+     margin-left: 10%;
+     margin-top: 1%;
+     font-family: 'Nunito', sans-serif;
  }
