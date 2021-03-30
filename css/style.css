@@ -392,16 +392,15 @@ li{
     width: 40%;
 }
 
-.footer{
-    margin: 1px solid black;
-    display: inline;
-    background-color: grey;
-    width: 200px;
+footer{
+    background-color: #32495B;
+    margin-top: 20%;
 }
 
 .footer > div{
     float: left;
     padding: 20px 15px;
+    margin-left: 4%;
 }
 
 .footer::after{
@@ -410,13 +409,20 @@ li{
     clear: both;
 }
 
+.footer h4{
+    color: white;
+}
+
 .verticali a{
     display: block;
+    margin-bottom: 3%;
     text-decoration: none;
+    color: white;
 }
 
 #contact_footer{
     border: 1px solid #D9DDDF;
+    color: #32495B;
     background-color:#D9DDDF;
     border-radius: 5px;
 }
@@ -427,6 +433,7 @@ li{
 
 .lingue a{
     text-decoration: none;
+    color: white;
 }
 
 .logo_footer a{
@@ -434,3 +441,9 @@ li{
     text-decoration: none;
     padding: 0px 10px;
 }
+
+.logo_footer p{
+    color: white;
+    font-size: 17px;   
+}
+
