@@ -427,3 +427,9 @@ li{
 .lingue a{
     text-decoration: none;
 }
+
+.logo_footer a{
+    float: right;
+    text-decoration: none;
+    padding: 0px 10px;
+}
