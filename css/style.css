@@ -395,6 +395,7 @@ li{
     margin: 1px solid black;
     display: inline;
     background-color: grey;
+    width: 200px;
 }
 
 .footer > div{
@@ -408,6 +409,21 @@ li{
     clear: both;
 }
 
-.footer a{
+.verticali a{
     display: block;
+    text-decoration: none;
+}
+
+#contact_footer{
+    border: 1px solid #D9DDDF;
+    background-color:#D9DDDF;
+    border-radius: 5px;
+}
+
+.lingue{
+    text-align: center;
+}
+
+.lingue a{
+    text-decoration: none;
 }
