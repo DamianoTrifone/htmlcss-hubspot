@@ -88,7 +88,7 @@
     background-size: cover;
 }
 
-#piccolo{
+.piccolo{
     margin-top: 70px;
     font-size: 15px;
 }
@@ -152,7 +152,7 @@ main {
     width: 500px;
 }
 
-#a_jumbotron{
+.a_grande{
     position: relative;
     top: 35px;
     padding: 15px 30px;
@@ -350,6 +350,16 @@ li{
      border-left: 0px;
  }
 
+ .start_growing{
+     margin-top: 2%;
+ }
+
+ .start_growing::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+
  .alto_sx{
      float: left;
      width: 40%;
@@ -363,4 +373,20 @@ li{
 .loghi{
     width: 100px;
     padding: 2px 5px;
+}
+
+.basso_sx{
+    margin-top: 4%;
+    float: left;
+    width: 45%;
+}
+
+.basso_dx{
+    margin-top: 2%;
+    float: left;
+    width: 45%;
+}
+
+.basso_dx img{
+    width: 40%;
 }
