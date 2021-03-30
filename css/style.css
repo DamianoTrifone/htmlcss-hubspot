@@ -349,3 +349,15 @@ li{
  .riga > div:first-child{
      border-left: 0px;
  }
+
+ .alto_sx{
+     float: left;
+ }
+
+.alto_sx{
+    float: left;
+}
+
+.loghi{
+    width: 180px;
+}
